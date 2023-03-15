@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity"
+    android:padding="35dp"
+    android:background="#2d3e52">
+
+    <EditText
+        android:layout_marginTop="150dp"
+        android:textSize="15sp"
+        android:id="@+id/id_input2"
+        android:padding="10dp"
+        android:background="@drawable/custom_edittext"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/custom_edittext"
+        android:textSize="15sp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:id="@+id/title_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Book Title"/>
+
+    <EditText
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:background="@drawable/custom_edittext"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/author_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Book Author"/>
+
+    <EditText
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:background="@drawable/custom_edittext"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/pages_input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Number of pages"/>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#3C475C"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+    <Button
+        android:textColor="#CD0707"
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#3C475C"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+</LinearLayout>
